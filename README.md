@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project will give you a chance to use the skills we've learned in class to create a site that highlights the skills and projects you'll be working on in WDI. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
+This project will give you a chance to use the skills we've learned in class to create a site that highlights the skills and projects you'll be working on in SEI. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
 
 Make sure to customize the design and content of the website to make it your own.
 
