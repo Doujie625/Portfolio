@@ -40,7 +40,7 @@ Your work must:
 	2. Animations
 	3. Javascript logic
 	4. jQuery interactions
-- Be deployed and accessible online via Github Pages. 
+- Be deployed and accessible online via Github Pages (we will have a lesson on this process during project week)
 ---
 
 ## Necessary Deliverables
@@ -68,9 +68,6 @@ Check out portfoliios that look awesome and emulate the parts that speak to you.
  
  - [lianapenn.com](https://www.lianapenn.com/)
  
- 
-
-
 ### Finding Good Portfolio Sites To Emulate 
 
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site. 
