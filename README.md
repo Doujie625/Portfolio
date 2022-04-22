@@ -33,7 +33,7 @@ There are alot of helpful hints and hindsight that were captured after the compl
 Your work must:
 
 - Use semantic markup for HTML and CSS, adhering to best practices.
-- Use CSS GRID and Flexbox.
+- Use CSS GRID and/or Flexbox.
 - Must be mobile first, then tablet and desktop responsive.
 - Must implement javascript to extend functionality by implementing 1 of the following
 	1. AJAX requests
