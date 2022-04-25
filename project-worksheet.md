@@ -20,6 +20,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
+This page will showcase my abilities and work as a developer. It will be made up of a navigation/header bar that links to all content on the page, descending down the page it will list an about me section, a projects section of completed projects I developed, a skills section to showcase what languages I know as well as other programs and software I utilize as a developer, aresume tab that will link my CV as well as links to my Social Media (Linkedin, Github, and maybe Instagram), then finally a contact footer that will allow people to leave me a message and provide my contact information.
+
+Time is limited and I would love to develop an amazing site with a plethora of awesome functionality features and designs, however my experience is limited and so is my time, so I have narrowed down my site to have two main functions and one central design in mind. I want to build a scroll toll so that as you scroll down the page, each section is centered on the screen and gently "snaps" into place and as you scroll again this gentle snap rolls you to the next item on the page. the second functionality I will build is a working contact page that does in fact send me messages via email when someone uses the site. Then finally I for design I want to use a cool neon glow effect for all my buttons and divs so that my page has a darker background color and when you navigate the page different glow and light up effects are triggerted.
+
+
 ## Wireframes
 
 Include images of wireframe with a description of the specific wireframe.   
