@@ -69,7 +69,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Scroll Focus (2a, 2b) | H | 4hr | 6hr |
 | Navigation (3a, 3b, 3c) | H | 6hr | 10hr |
 | Mobile Slider Bars (4a, 4b) | H | 4hr | 6hr |  
-
 | Total | H | 14hrs| 22hrs |
 
 #### PostMVP
@@ -100,3 +99,10 @@ function reverse(string) {
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
+
+## Resources Used
+Neon Tutorial Video: https://www.youtube.com/watch?v=6xNcXwC6ikQ
+Neon Tutorial page: https://css-tricks.com/how-to-create-neon-text-with-css/
+Scroll Snap Tutorial Video: https://www.youtube.com/watch?v=y9nlfqT4s9s
+Scroll Carousel Tutorial Video: https://www.youtube.com/watch?v=9HcxHDS2w1s
+Scroll Carousel Tutorial Video 2: https://www.youtube.com/watch?v=gBzsE0oieio
