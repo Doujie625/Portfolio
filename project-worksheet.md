@@ -24,7 +24,6 @@ This page will showcase my abilities and work as a developer. It will be made up
 
 Time is limited and I would love to develop an amazing site with a plethora of awesome functionality features and designs, however my experience is limited and so is my time, so I have narrowed down my site to have two main functions and one central design in mind. I want to build a scroll toll so that as you scroll down the page, each section is centered on the screen and gently "snaps" into place and as you scroll again this gentle snap rolls you to the next item on the page. the second functionality I will build is a working contact page that does in fact send me messages via email when someone uses the site. Then finally I for design I want to use a cool neon glow effect for all my buttons and divs so that my page has a darker background color and when you navigate the page different glow and light up effects are triggerted.
 
-
 ## Wireframes
 
 Include images of wireframe with a description of the specific wireframe.   
@@ -36,6 +35,15 @@ Wireframing Resources:
 
 - [Mockflow](https://mockflow.com/app/#Wireframe)
 - [Figma](https://www.figma.com/)
+
+After my first draft of a wireframe I see that it will be very difficult to display my skills and projects entirely on the limited space of the mobile and tablet media sizes. To solve this issue I believe a slider tool will need to be built and added to the projects and skills mobile sections.
+
+- [Miro](https://miro.com/app/board/uXjVO6RlJLs=/)
+
+- [Full](https://imgur.com/46j1gjq)
+- [Desktop](https://imgur.com/ElNIkbI)
+- [Tablet](https://imgur.com/OLghqU2)
+- [Mobile](https://imgur.com/m5Jc9SS)
 
 
 ## Time/Priority Matrix 
