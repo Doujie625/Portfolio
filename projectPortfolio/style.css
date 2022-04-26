@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    background: hsl(323 21% 16%);
     color: #fff;
     font-size: 18px;
     line-height: 1.5;
@@ -18,8 +18,8 @@ body {
     z-index: 1;
     display: flex;
     width: 100%;
-    height: 60px;
-    background: rgba(0,0,0,0.7);
+    height: 250px;
+    background: hsl(323 21% 16%);
 }
 .navbar ul {
     display: flex;
@@ -34,10 +34,6 @@ body {
 .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #f4f4f4;
-}
-.navbar ul li a:hover {
-    color:skyblue;
 }
 
 
@@ -52,31 +48,22 @@ div {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory; */
 }
-header {
-    background-color: #b46ae3;
-    padding: 1em;
-    color: white;
-}
 #about {
-    background-color: #51a7fa;
     padding: 1em;
     color: white;
     height: 100vh;
 }
 #projects {
-    background-color: pink;
     padding: 1em;
     color: white;
     height: 100vh;
 }
 #skills{
-    background-color: lightgreen;
     padding: 1em;
     color: white;
     height: 100vh;
 }
 #contact {
-    background-color: #f49018;
     padding: 1em;
     color: white;
     height: 100vh;
