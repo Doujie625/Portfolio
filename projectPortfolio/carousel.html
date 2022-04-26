@@ -19,14 +19,14 @@
 
 
 <div class="carousel">
-    <button class="carousel__button carousel__button--left">
+    <button class="carousel__button carousel__button--left is-hidden">
         <img class="example" src="images/211686_back_arrow_icon.svg" alt="">
         <!-- <span class="neon-button"><</span> -->
     </button>
 
     <div class="carousel__track-container">
         <ul class="carousel__track">
-            <li class="carousel__slide">
+            <li class="carousel__slide current-slide">
                 <img class="carousel__image" src="images/d2zaii3-22e60a2b-a164-44bd-a487-cb16589a4799.jpeg" alt="">
             </li>
             <li class="carousel__slide">
@@ -43,10 +43,17 @@
     </button>
 
     <div class="carousel__nav">
-        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator current-slide"></button>
         <button class="carousel__indicator"></button>
         <button class="carousel__indicator"></button>
     </div>
 </div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="main.js"></script>
+
 </body>
 
