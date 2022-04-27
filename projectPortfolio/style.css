@@ -13,24 +13,29 @@ body {
 }
 
 .navbar {
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     z-index: 1;
     display: flex;
     width: 100%;
-    height: 100px;
-    background: hsl(323 21% 16%);
+    height: 90px;
+    background-color: hsl(323 21% 16%);
+    background-color: transparent;
+    /* justify-content: center; */
 }
 .navbar ul {
     display: flex;
     list-style: none;
     width: 100%;
-    justify-content: space-around;
+    justify-content: right;
+    align-items: middle;
 }
+
 .navbar ul li {
     margin: 0 1rem;
     padding: 1rem;
 }
+
 .navbar ul li a {
     text-decoration: none;
     text-transform: uppercase;
@@ -49,25 +54,97 @@ div {
     scroll-snap-type: y mandatory; */
 }
 #about {
-    padding: 1em;
+    /* position: absolute; */
+    padding: 4em;
     color: white;
     height: 100vh;
+    text-align: center;
 }
+
 #projects {
-    padding: 1em;
+    padding: 4em;
     color: white;
     height: 100vh;
+    text-align: center;
 }
+.left {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.project_left {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    transition: transform .2s;
+}
+.project_left:hover {
+    transform: scale(2);
+}
+.project_left_inside {
+    height: 50px;
+    width: 50px;
+    background: black;
+    position: absolute;
+    top: 25%;
+
+}
+
+
+.middle {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.project_middle {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    transition: transform .2s;
+}
+.project_middle:hover {
+    transform: scale(2);
+}
+
+
+
+.right {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.project_right {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    transition: transform .2s;
+}
+.project_right:hover {
+    transform: scale(2);
+}
+
+
+
+
 #skills{
-    padding: 1em;
+    padding: 4em;
     color: white;
-    height: 100vh;
-}
-#contact {
-    padding: 1em;
-    color: white;
-    height: 100vh;
-} 
-.footer {
-    padding: 1em;
+    height: 90vh;
+    text-align: center;
 }

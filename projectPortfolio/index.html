@@ -7,9 +7,9 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="neon.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="neon.css">
     <link rel="stylesheet" href="carousel.css">
 
 </head>
@@ -21,10 +21,10 @@
                 <li><a href="#about" class="neon-button">About</a></li>
                 <li><a href="#projects" class="neon-button">Projects</a></li>
                 <li><a href="#skills" class="neon-button">Skills</a></li>
-                <li><a href="#contact" class="neon-button">Contact</a></li>
+                <!-- <li><a href="#contact" class="neon-button">Contact</a></li> -->
                 <li><a href="#resume" class="neon-button">Resume</a></li>
             </ul>
-         </nav>
+        </nav>
 
         <main class="main">
             <div id="about">
@@ -40,9 +40,33 @@
             </div>
             
             <div id="projects">
+                <div class="top">
+                    <h1>Projects</h1>
+                    <p>Projects will go here.</p>
+                </div>
+                <div class="left">
+                    <div class="project_left">
+                        <div class="project_left_inside">
 
+                        </div>
+                    </div>
+                    <h1>Project1</h1>
+                </div>
+                <div class="middle">
+                    <div class="project_middle"></div>
+                    <h1>Project2</h1>
+                </div>
+                <div class="right">
+                    <div class="project_right"></div>
+                    <h1>Project3</h1>
+                </div>
+            </div>
 
             <div id="skills">
+                <div class="top">
+                    <h1>Skills</h1>
+                    <p>Skills will go here.</p>
+                </div>
                 <div class="carousel">
                     <button class="carousel__button carousel__button--left is-hidden">
                         <span class="neon-button"><</span>
@@ -51,13 +75,12 @@
                     <div class="carousel__track-container">
                         <ul class="carousel__track">
                             <li class="carousel__slide current-slide">
-                                <h1>Skill Slide 1</h1>
                             </li>
                             <li class="carousel__slide">
-                                <h1>Skill Slide 2</h1>
+                                <img class="carousel__image" src="images/d2zaii3-22e60a2b-a164-44bd-a487-cb16589a4799.jpeg" alt="">
                             </li>
                             <li class="carousel__slide">
-                                <h1>Skill Slide 3</h1>
+                                <img class="carousel__image" src="images/d2zaii3-22e60a2b-a164-44bd-a487-cb16589a4799.jpeg" alt="">
                             </li>
                         </ul>
                     </div>
@@ -74,17 +97,6 @@
                 </div>
             </div>
 
-            <div id="contact">
-                <div class="left">
-                    <h1>Image</h1>
-                    <p>Image will go here.</p>
-                </div>
-                <div class="right">
-                    <h1>Contact</h1>
-                    <p>Contact field will go here.</p>
-                    <img>
-                </div>
-            </div>
         </main>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
