@@ -28,11 +28,13 @@ body {
     list-style: none;
     width: 100%;
     justify-content: right;
-    align-items: middle;
+    align-items: center;
+    position: relative;
 }
 
 .navbar ul li {
-    margin: 0 1rem;
+    /* top: 70%; */
+    margin: 1 1rem;
     padding: 1rem;
 }
 
@@ -40,6 +42,13 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+img {
+    color: hsl(317 100% 54%);    
+    fill: currentColor;
+    height: 48px;
+}
+
 
 
 div {
