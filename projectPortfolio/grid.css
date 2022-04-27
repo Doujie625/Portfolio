@@ -8,14 +8,6 @@
     grid-template-rows: auto 1fr; */
 }
 
-/* nav {
-	display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul {
-    display: flex
-} */
 
 .main {
     display: grid;
@@ -66,131 +58,139 @@ nav ul {
 }
 
 
-
-
 .carousel__slide {
     display: grid;
-}
-
-
-.main #skills {
-    /* display: grid; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1.5fr 1.5fr;
-    grid-row: 3 / 4;
-}
-.main #skills .top_carousel {
-    transform: translate(0, 50%);
-
-}
-.main #skills .top {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-.main #skills .skill1 {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
-.main #skills .skill2 {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-.main #skills .skill3 {
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-}
-.main #skills .skill4 {
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-}
-.main #skills .skill5 {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4
-}
-.main #skills .skill6 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4
-}
-.main #skills .skill7 {
-    grid-column: 3 / 4;
-    grid-row: 3 / 4
-}
-.main #skills .skill8 {
-    grid-column: 4 / 5;
-    grid-row: 3 / 4
-}
-
-/* Carousel Slides */
-.carousel__track-container .carousel__track {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1.5fr 1.5fr;
-}
-.carousel__track .top { 
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-.carousel__track .carousel__slide1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    cursor: pointer;
+}
+.carousel__slide .skill {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#skill_1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
+}
+#skill_1:hover {
+    transform: scale(2);
+}
+#skill_2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
+}
+#skill_2:hover {
+    transform: scale(2);
+}
+#skill_3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
+}
+#skill_3:hover {
+    transform: scale(2);
+}
+#skill_4 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
+}
+#skill_4:hover {
+    transform: scale(2);
+}
+#skill_5 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
 }
-.carousel__track .carousel__slide .skill1{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+#skill_5:hover {
+    transform: scale(2);
 }
-.carousel__track .carousel__slide .skill2{
+#skill_6 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: purple;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
 }
-.carousel__track .carousel__slide .skill3{
+#skill_6:hover {
+    transform: scale(2);
+}
+#skill_7 {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
 }
-.carousel__track .carousel__slide .skill4{
+#skill_7:hover {
+    transform: scale(2);
+}
+#skill_8 {
     grid-column: 4 / 5;
     grid-row: 2 / 3;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition: transform .2s;
 }
-.carousel__track .carousel__slide2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;        
-    grid-template-rows: 1fr 1fr;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-.carousel__track .carousel__slide .skill5{
-    grid-column: 1 / 2;
-    grid-row: 3 / 4
-}
-.carousel__track .carousel__slide .skill6{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4
-}
-.carousel__track .carousel__slide .skill7{
-    grid-column: 3 / 4;
-    grid-row: 3 / 4
-}
-.carousel__track .carousel__slide .skill8{
-        grid-column: 4 / 5;
-    grid-row: 3 / 4
+#skill_8:hover {
+    transform: scale(2);
 }
 
-.main #contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-row: 4 / 5;
-}
-.main #contact .left {
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
-}
-.main #contact .right {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
-}
+
 
 
 /* MediaQuery Tablets*/
@@ -220,6 +220,7 @@ nav ul {
         grid-row: 2 / 3;
     }
 
+
     .main #projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -244,7 +245,9 @@ nav ul {
         display: none;
     }
 
-    .main #skills {
+
+    
+    /* .main #skills {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1.5fr 1.5fr 1.5fr;
@@ -285,23 +288,7 @@ nav ul {
     .main #skills .skill8 {
         grid-column: 2 / 3;
         grid-row: 4 / 5
-    }
-    
-    .main #contact {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-row: 4 / 5;
-    }
-    .main #contact .left {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-    }
-    .main #contact .right {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        z-index: +1;
-    }
+    } */
 }
 
 
