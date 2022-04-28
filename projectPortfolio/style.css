@@ -53,20 +53,21 @@ body {
         display: none;
     }
 
-
     .dropdown {
         display: flex;
         position: relative;
         list-style: none;
         width: 100%;
         justify-content: right;
+        z-index: 10;
     }
     .dropdown-content {
         display: none;
         position: relative;
-        min-width: 160px;
+        min-width: 60px;
+        min-height: 600px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
+        z-index: 10;
     }
     .dropdown-content a {
         color: hsl(317 100% 54%);
@@ -75,20 +76,35 @@ body {
         display: block;
         text-align: center;
         margin: 10px;
+        z-index: 100;
+    }
+    .dropdown-content a:hover {
+        background-color: transparent;
+        display: block;
+        position: relative;
 
     }
-    .dropdown-content a:hover {background-color: transparent;}
 
-    .dropdown:hover .dropdown-content {display: inline-block;}
+    .dropdown:hover .dropdown-content {
+        display: block;
+        position: relative;
 
-    .dropdown:hover .dropbtn {background-color: transparent;}
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: transparent;
+        display: block;
+        position: relative;
+
+
+    }
     
     button {
         background-color: transparent;
-        background-repeat: no-repeat;
+        display: block;
+        position: relative;
     }
 }
-
 
 img {
     color: hsl(317 100% 54%);    
@@ -173,7 +189,6 @@ div {
 
 
 .right {
-    cursor: pointer;
     display: flex;
     justify-content: center;
     position: relative;
@@ -190,8 +205,6 @@ div {
 .project_right:hover {
     transform: scale(2);
 }
-
-
 
 
 #skills{

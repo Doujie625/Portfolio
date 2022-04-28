@@ -194,9 +194,6 @@
 
 /* MediaQuery Tablets*/
 @media screen and (max-width: 992px) {
-
-
-
     .main #about {
         display: grid;
         grid-template-columns: 1fr;
@@ -236,20 +233,12 @@
         grid-row: 2 / 3; */
         display: none;
     }
-
-
-
-
-    
-
 }
 
 
 
 /* MediaQuery Mobile*/
 @media screen and (max-width: 768px) {
-
-
     .main #about {
         display: grid;
         grid-template-columns: 1fr;
