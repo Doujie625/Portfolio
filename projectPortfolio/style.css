@@ -5,11 +5,15 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: hsl(323 21% 16%);
     color: #fff;
     font-size: 18px;
     line-height: 1.5;
     /* overflow: hidden; */
+}
+main {
+    background: #470c64;
+    background: -webkit-linear-gradient(#171c45 95%, #470c64 100%);
+
 }
 
 .navbar {
@@ -66,23 +70,20 @@ body {
         position: relative;
         min-width: 60px;
         min-height: 600px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 10;
+        /* z-index: 10; */
     }
     .dropdown-content a {
-        color: hsl(317 100% 54%);
         padding: 12px 16px;
         text-decoration: none;
         display: block;
         text-align: center;
-        margin: 10px;
-        z-index: 100;
+        margin: 20px;
+        /* z-index: 100; */
     }
     .dropdown-content a:hover {
         background-color: transparent;
         display: block;
         position: relative;
-
     }
 
     .dropdown:hover .dropdown-content {
@@ -106,13 +107,6 @@ body {
     }
 }
 
-img {
-    color: hsl(317 100% 54%);    
-    fill: currentColor;
-    height: 48px;
-}
-
-
 
 div {
     /* scroll-snap-align: center; */
@@ -131,6 +125,8 @@ div {
     color: white;
     height: 100vh;
     text-align: center;
+    background-color: #103623;
+    background: -webkit-linear-gradient(#103623 85%, #540934 100%);
 }
 
 #projects {
@@ -138,6 +134,7 @@ div {
     color: white;
     height: 100vh;
     text-align: center;
+    background: -webkit-linear-gradient(#540934 85%, #171c45 100%);
 }
 .left {
     cursor: pointer;
@@ -212,4 +209,5 @@ div {
     color: white;
     height: 90vh;
     text-align: center;
+    background: #171c45;
 }
