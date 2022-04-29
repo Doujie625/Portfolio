@@ -12,8 +12,6 @@ body {
 }
 main {
     background: #470c64;
-    background: -webkit-linear-gradient(#171c45 95%, #470c64 100%);
-
 }
 
 .navbar {
@@ -126,7 +124,7 @@ div {
     height: 100vh;
     text-align: center;
     background-color: #103623;
-    background: -webkit-linear-gradient(#103623 85%, #540934 100%);
+    background: -webkit-linear-gradient(#103623 70%, #540934 100%);
 }
 
 #projects {
@@ -134,7 +132,7 @@ div {
     color: white;
     height: 100vh;
     text-align: center;
-    background: -webkit-linear-gradient(#540934 85%, #171c45 100%);
+    background: -webkit-linear-gradient(#540934 70%, #171c45 100%);
 }
 .left {
     cursor: pointer;
@@ -210,4 +208,13 @@ div {
     height: 90vh;
     text-align: center;
     background: #171c45;
+    background: -webkit-linear-gradient(#171c45 80%, #470c64 100%);
+
+}
+
+
+h1 {
+    font-size: 108px;
+    display: relative;
+    margin: 0;
 }

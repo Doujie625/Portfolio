@@ -1,6 +1,6 @@
 .carousel {
     position: relative;
-    height: 100%;
+    height: 80%;
     width: 90%;
     margin: 0 auto;
 
@@ -66,13 +66,29 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background: rgba(0,0,0,.3);
+    background: #fff;
     margin: 0 12px;
     cursor: pointer;
+    /* filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2rem #bc13fe)        
+    drop-shadow(0 0 1.8rem #bc13fe)
+    drop-shadow(0 0 2.8rem #bc13fe);
+    transition: opacity 100ms linear;  */
+
 }
 
 .carousel__indicator.current-slide {
-    background: rgba(0,0,0,.75)
+    background: #fff;
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2rem #bc13fe)        
+    drop-shadow(0 0 .8rem #bc13fe)
+    drop-shadow(0 0 1.8rem #bc13fe);
+    transition: opacity 100ms linear; 
+
 }
 
 .is-hidden { display: none; }

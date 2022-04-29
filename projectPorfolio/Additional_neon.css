@@ -237,11 +237,11 @@
         0 0 2rem #bc13fe,
         0 0 1.8rem #bc13fe,
         0 0 3.8rem #bc13fe,
-        inset 0 0 1.3rem #bc13fe;    opacity: 0;
+        inset 0 0 1.3rem #bc13fe;    
+    opacity: 0;
     z-index: -1;
     transition: opacity 100ms linear;
     background-color: #bc13fe;
-
 }
 .neon-buttonViolet:hover,
 .neon-buttonViolet:focus {
@@ -255,6 +255,84 @@
 .neon-buttonViolet:hover::after,
 .neon-buttonViolet:focus::after {
     opacity: 1;
+}
+
+
+
+
+.cls-1 {
+    fill: #fff;
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2.8rem #bc13fe);
+    transition: opacity 100ms linear;
+}
+.cls-1:hover {
+    filter: 
+    drop-shadow(0 0 .2rem #fff)
+    drop-shadow(0 0 2rem #bc13fe)
+    drop-shadow(0 0 2rem #bc13fe)        
+    drop-shadow(0 0 1.8rem #bc13fe)
+    drop-shadow(0 0 2.8rem #bc13fe);
+    transition: opacity 100ms linear; 
+    
+}
+
+#Regular {
+    fill: #fff;
+    position: relative;
+    height: 40px;
+    top: .3em;
+    left: 0;
+    border: 0.2rem solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.2em;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+#Regular:hover {
+    box-shadow: 
+    0 0 2rem #fff,
+    0 0 2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 1.8rem #bc13fe,
+    0 0 3.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;    
+
+}
+
+#Regular_mail {
+    fill: #fff;
+    position: relative;
+    height: 33px;
+    width: 30px;
+    top: .3em;
+    left: 0;
+    border: 0.2rem solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.5em;
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 3.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+}
+#Regular_mail:hover {
+    box-shadow: 
+    0 0 2rem #fff,
+    0 0 2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 1.8rem #bc13fe,
+    0 0 3.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;    
 }
 
 
@@ -309,4 +387,19 @@
       0 0 92px #bc13fe,
       0 0 102px #bc13fe,
       0 0 151px #bc13fe;
+    fill: #fff;
 }
+#neonTextViolet {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+    fill: #fff;
+}
+
